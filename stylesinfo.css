@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7fdfc; 
+    color: #2f4f4f; 
+}
+
+.Info {
+    background-color: #004d40; 
+    color: #ffffff; 
+    padding: 60px 20px;
+    border-bottom: 10px solid #00796b; 
+    text-align: center; 
+    font-size: 3em; 
+}
+
+
+.sub_itens {
+    font-size: 2em;
+    font-weight: bold;
+    color: #00796b;
+    margin-top: 20px;
+    border-bottom: 2px solid #004d40; 
+    padding-bottom: 10px;
+    text-align: center;
+}
+.info_seguradora {
+    font-size: 1.2em;
+    color: #2f4f4f; 
+    padding-bottom: 10px;
+    text-align: center;
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+p {
+    font-size: 1.2em;
+    color: #2f4f4f; 
+    margin-top: 10px;
+}
+
+a {
+    color: #004d40;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.estagio_info {
+    background-color: rgba(72, 131, 72, 0.226); 
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+.botao-voltar {
+    background-color: #00796b; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.botao-voltar:hover {
+    background-color: rgba(0, 121, 107, 0.8); 
+}
+
+.rodape {
+    background-color: rgba(43, 116, 103, 0.8); 
+    color: #2f4f4f; 
+    padding: 20px 0 40px; 
+    text-align: center; 
+    font-size: 1.2em; 
+    position: relative; 
+    clear: both; 
+    margin-top: 50px; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); 
+}
+.rodape .criado{
+    
+    color: #2f4f4f; 
+    
+    text-align: center; 
+    font-size: 0.8em;
+    position: relative; 
+    clear: both; 
+    margin-top: 10px; 
+    
+}

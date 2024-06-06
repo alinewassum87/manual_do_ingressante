@@ -1,0 +1,120 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7fdfc; 
+    color: #2f4f4f; 
+}
+
+header {
+    background-color: #004d40; 
+    color: #ffffff; 
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 4px solid #00796b; 
+}
+
+header.programa h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: 600;
+}
+
+.frase {
+    text-align: center;
+    font-size: 1.5em;
+    color: #00796b; 
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e0f2f1; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.texto1 {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e0f2f1; 
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.texto1 h3 {
+    color: #004d40; 
+    border-bottom: 2px solid #00796b; 
+    padding-bottom: 10px;
+}
+
+.texto1 p {
+    margin: 10px 0;
+    line-height: 1.8;
+}
+
+a {
+    color: #004d40;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.voltar {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.botao-voltar {
+    background-color: #00796b; 
+    color: #ffffff; 
+    padding: 15px 30px; 
+    font-size: 1.2em; 
+    text-decoration: none;
+    border-radius: 25px; 
+    border: 2px solid #004d40; 
+    display: inline-block; 
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+}
+
+.botao-voltar {
+    background-color: #00796b; 
+    color: #ffffff; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.botao-voltar:hover {
+    background-color: rgba(0, 121, 107, 0.8); 
+}
+.rodape {
+    background-color: rgba(43, 116, 103, 0.8); 
+    color: #2f4f4f; 
+    padding: 20px 0 40px; 
+    text-align: center; 
+    font-size: 1.2em; 
+    position: relative; 
+    clear: both; 
+    margin-top: 50px; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); 
+}
+.rodape .criado{
+    
+    color: #2f4f4f; 
+    
+    text-align: center; 
+    font-size: 0.8em; 
+    position: relative; 
+    clear: both; 
+    margin-top: 10px; 
+    
+}
